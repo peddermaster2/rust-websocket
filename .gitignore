@@ -52,3 +52,5 @@ Temporary Items
 autobahn/client
 autobahn/server
 
+# Visual Studio Code
+.vscode

@@ -1,6 +1,6 @@
 //! The result type used within Rust-WebSocket
 
-use hyper::Error as HttpError;
+pub use hyper::Error as HttpError;
 use server::upgrade::HyperIntoWsError;
 use std::convert::From;
 use std::error::Error;
